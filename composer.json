@@ -1,0 +1,28 @@
+{
+    "name": "shahriar-siraj/laravel-i18n",
+    "description": "Laravel package to implement localization",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Md Shahriar Siraj",
+            "email": "ssnigdho@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3.0",
+        "laravel/framework": "^8.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ShahriarSiraj\\LaravelI18n\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ShahriarSiraj\\LaravelI18n\\ServiceProvider"
+            ]
+        }
+    }
+}
